@@ -116,7 +116,7 @@ int main(int argc, char** argv) {
 
   g_footprint_frame_id = "base_footprint";
   g_stabilized_frame_id = "base_stabilized";
-  // g_position_frame_id = "base_position";
+  g_position_frame_id = "base_position";
 
   ros::NodeHandle priv_nh("~");
   priv_nh.getParam("odometry_topic", g_odometry_topic);
